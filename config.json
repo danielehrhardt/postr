@@ -1,0 +1,19 @@
+{
+	"title": "Your title",
+	"description": "Your description",
+	"tags": ["tag1", "tag2", "tag3"],
+	"video": "video/video.mp4",
+	"instagram": {
+		"email": "your_username",
+		"password": "your_password"
+	},
+	"tiktok": {
+		"sessionId": "your_session"
+	},
+	"youtube": {
+		"email": "your_username",
+		"password": "your_password",
+		"recoveryemail": "your_recovery_email",
+		"channelName": "your_channel_name"
+	}
+}

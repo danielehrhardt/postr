@@ -1,0 +1,23 @@
+{
+	"name": "postr",
+	"version": "1.0.0",
+	"description": "## Multi-Platform Video Uploader (MPVU)",
+	"main": "index.js",
+	"scripts": {
+		"install": "pip install -r requirements.txt",
+		"upload": "python3 python/upload.py && npx ts-node node/upload.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/danielehrhardt/postr.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/danielehrhardt/postr/issues"
+	},
+	"homepage": "https://github.com/danielehrhardt/postr#readme",
+	"dependencies": {
+		"youtube-videos-uploader": "^2.0.18"
+	}
+}

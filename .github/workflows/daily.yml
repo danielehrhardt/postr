@@ -1,0 +1,20 @@
+name: Run Daily Sync
+
+on:
+  workflow_dispatch:
+  #schedule:
+  #  - cron: "0 17 * * *"
+
+jobs:
+  render:
+    name: Render video
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - uses: actions/setup-node@main
+        with:
+          node-version: 18
+      - uses: actions/setup-python@v4
+      - run: npm install
+      - run: |
+          npm run upload
